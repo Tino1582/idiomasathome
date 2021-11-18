@@ -1,0 +1,792 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/*==== VARIABLES ====*/
+:root{
+    --whatsapp-color: #25d366;
+    --whatsapp-color-second: #dcf8c6;
+    --primary-color: #033E80;
+    --third-color: #0c5db8;
+    --header-color: #101213;
+    --smaller-font-size: 0.8rem;
+    --color-grey: #E5E5E5;
+    --footer-color: #033E80;
+    --instagram-color:#dd2a7b;
+    --color-contenedor: #E3F4FC;
+    --text-normal:1rem;
+    --text-pequeño: .875rem;
+    --border-radius:.75rem;
+
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+}
+.active{
+    background-color: transparent !important;
+    
+}
+.nav-link.active:hover{
+    background-color: var(--third-color) !important;
+    border-color: var(--third-color) !;
+}
+.active1{
+    background-color: var(--third-color); 
+}
+.Navegacion{
+    background-color: #083f7d !important;
+    color: white !important;
+}
+.nav-item{
+    color: white !important;
+}
+.ml-4{
+    margin-left: 2.1rem !important;
+}
+@media screen and (min-width: 968px) {
+    :root {
+      --biggest-font-size: 4rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.75rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+    }
+  }
+/*=== ESTA PARTE ES PARA EL BODY Y EL NAVBAR===*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--normal-font-size);
+}
+
+.navegacionOne{
+    background-color: var(--primary-color);
+}
+.navcontainer{
+    padding: .1rem 1rem !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0 !important;
+    
+}
+
+.btn-primary-wsp{
+    padding: .5rem 1rem !important;
+    color: black;
+    font-size: var(--smaller-font-size);
+    font-weight: bold;
+    background-color: var(--whatsapp-color);
+    border-color: var(--whatsapp-color);
+}
+.btn-primary-wsp:hover{
+    background: var(--whatsapp-color-second);
+    border-color: var(--whatsapp-color-second);
+    color: #000;
+}
+.nav-link{
+    font-size: .9rem;
+    font-weight:600;
+    padding: .5rem 1rem!important;
+    margin: 0rem .2rem;
+    
+    
+}
+.btn-primary{
+    padding: .5rem 2rem;
+    background-color: var(--primary-color);
+}
+/*---------------SECCIÓN INICIAL-----------------*/
+.tituloEncabezado{
+    margin-left: 2rem !important;
+}
+/*IMAGEN VISION MISION*/
+
+.imagenMisionVision>img{
+    width: 100%;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+
+.navInicio{
+    margin-left: 2.1rem;
+}
+.btn-light{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+.active{
+    background-color: var(--third-color);  
+    
+}
+.nav-link:hover{
+    background-color: var(--third-color);
+    color: #fff !important;
+}
+.botonWhatsapp{
+    background-color: var(--whatsapp-color);
+    border-radius: 5px;
+    border-color: var(--whatsapp-color);
+    letter-spacing: 3px;
+}
+.botonWhatsapp:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-color: var(--whatsapp-color);
+    letter-spacing: 3px;
+}
+/*--------PARA PROGRAMAS----------*/
+.nav{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav-tabs{
+    border-bottom: 1px;
+}
+.nav-linkSecond{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    font-size: .9rem;
+    font-weight:600;
+    padding: .5rem 1rem!important;
+    margin-right: .5rem;
+    
+}
+
+
+
+/**SECCION REDES SOCIALES**/
+.redesSocialesOne{
+    margin-bottom: 5rem !important;
+}
+.seccionesRedes{
+    height: 19px;
+    margin-left: .5rem;
+}
+.columnaLineaRed{
+    width: 75% !important;
+    margin-left: 0rem;
+    padding-top: 0.65rem !important;
+}
+.textoRed{
+    margin:0;
+    width: 25% !important;
+    
+}
+.tachadoRed{
+    background-color: var(--color-grey);
+    height: 2px;
+    max-width: 100%;
+}
+/*----------- ESTA SECCIÓN ES PARA REDES SOCIALES --------------*/
+.socialOne{
+    justify-content: center !important;
+}
+.grupoSociales{
+    display: flex;
+    text-decoration: none;
+    align-items: center !important;
+    margin-bottom: 0rem !important;
+}
+.whatsapp{
+    color: var(--whatsapp-color);
+}
+.instagram{
+    color: var(--instagram-color);
+}
+.tiktok{
+    color: black;
+}
+.logosSocial{
+    margin-bottom: 0rem;
+}
+.logosSociales{
+    width: 30px;
+    display: flex;
+    margin-bottom: 0rem !important;
+}
+
+
+/*=== ESTE EL ESTILO PARA EL FOOTER ===*/
+.imageFooter{
+    height: 50px;
+    width: 50px;
+}
+.card-footer{
+    background-color: var(--footer-color);
+    color: white;
+}
+.titulosFooter{
+    font-size: var(--text-normal) !important;
+}
+.subTitulosFooter{
+    font-size: var(--text-pequeño) !important;
+    font-weight: lighter !important;
+}
+
+/* --------- LINEA ESTILIZADA DIVISORA-------------*/
+.seccionVacia{
+    height: .5rem;
+    align-items: centers;
+    padding-top: 0.3rem !important;
+
+
+}
+.columnaLinea{
+    max-width: 72px;
+    padding-top: .6rem;
+    text-align: right;
+    padding-left: .6rem;
+}
+.seccionesH3{
+    height: 19px;
+    margin-left: .5rem;
+}
+.tachado{
+    background-color: var(--color-grey);
+    height: 2px;
+    width: 72px;
+    padding: 0;
+}
+.texto{
+    padding:0rem;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /*margin-left: 2.3rem;*/
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+/*COSAS IMPORTANTES*/
+.border-radius{
+    border-radius: var(--border-radius);
+}
+.border-radius-second{
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+.border-radius-third{
+    border-radius: 2rem;
+}
+.botonOpcional{
+    cursor: pointer;
+    color: grey;
+}
+.botonInicial{
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-size: 1rem !important;
+    width: 170px;
+    height: 50px;
+    padding-top: .8rem;
+}
+.botonInicial:hover{
+    background-color: black;
+    border-color: black;
+    color:white;
+}
+.botonSecundario{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: white;
+    color: white;
+    width: 170px;
+    height: 50px;
+    padding-top: .8rem !important;
+}
+.botonSecundario:hover{
+    background-color: var(--whatsapp-color);
+    border-color: var(--whatsapp-color) !important;
+    color:black;
+    border-color: white;
+
+}
+/*SECION UNO*/
+.contenidoInicial{
+    margin-left: 6rem !important;
+}
+.cuadroMisionVision{
+    background-color: #E3F4FC;
+    border-color: var(--primary-color) !important;
+    
+}
+.text-azulPrimary{
+    color: var(--primary-color);
+}
+.text-justify{
+    text-align: justify;
+}
+.border-radius-forth{
+    border-radius: 4px;
+}
+.text-right{
+    text-align: right;
+}
+/*SECCION REDES SOCIALES*/
+.redesSocialesOne{
+    height: 100px;
+    margin-bottom: 7rem !important;
+}
+.seccionesRedes{
+    height: 19px;
+    margin-left: .5rem;
+}
+.columnaLineaRed{
+    width: 75% !important;
+    margin-left: 0rem;
+    padding-top: 0.65rem !important;
+}
+.textoRed{
+    margin:0;
+    width: 25% !important;
+    
+}
+.tachadoRed{
+    background-color: var(--color-grey);
+    height: 2px;
+    max-width: 100%;
+}
+.socialOne{
+    justify-content: center !important;
+    display: block;
+}
+.grupoSociales{
+    display: flex;
+    align-items: center !important;
+    margin-bottom: 1rem !important;
+}
+.logosSocial{
+    margin-bottom: 0rem;
+}
+.logosSociales{
+    width: 30px;
+    display: flex;
+    margin-bottom: 0rem !important;
+}
+
+/*VALORES Y LOGROS*/
+.tituloIzquierdo{
+    margin-left: 0rem;
+    color: white !important;
+}
+
+
+/*SECCION ESTUDIANTES*/
+.seccionEstudiantes{
+    background-color: var(--footer-color);
+    padding: 5rem 0rem 5rem 5rem;
+    color: white;
+    border-radius: var(--border-radius);
+}
+.headingTwo{
+    font-size: 48px;
+}
+.divisionEstudiantes{
+    padding: 5rem !important;
+}
+.descripcionEstudiantes{
+    font-weight: lighter !important;
+}
+.card{
+    border: none !important;
+    height: 320px !important;
+    width: 300px !important;
+}
+
+/*SECCION PROFESORES*/
+
+.nombreProfesores{
+    font-size: 20px;
+}
+.cargoProfesores{
+    font-size: 12px;
+}
+/*SECCION APPLY*/
+
+.botonInicial{
+    padding: .5rem 1.5rem;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin: -25px 0 0 -25px;
+}
+.lista{
+    text-align: left !important;
+    display: inline-block !important;
+}
+
+
+
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+    .place__container {
+      grid-template-columns: max-content;
+      justify-content: center;
+    }
+    .experience__content {
+      padding: 0;
+    }
+    .experience__overlay:nth-child(1) {
+      width: 190px;
+    }
+    .experience__overlay:nth-child(2) {
+      width: 80px;
+    }
+    .home__info {
+      width: 190px;
+      padding: 1rem;
+    }
+    .experience__img,
+    .video__container {
+      padding: 0;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .navbar{
+        background-color: var(--primary-color); 
+    }
+    
+
+
+    .imagenAbout{
+        width: 100% !important;
+    }
+    .redesSocialesOne{
+        height: 180px;
+
+    }
+    .seccionesH3{
+        margin-bottom: 4rem !important;
+    }
+    .socialOne{
+        margin-left: 4rem;
+        
+    }
+
+    .cifrasEstudiantes{
+        display: flex !important;
+    }
+    
+    .botonInicial{
+        padding: .5rem 1.5rem;
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        position: absolute;
+        top: 64%;
+        left: 43%;
+        margin: -25px 0 0 -25px;
+    }
+    .forms{
+        height: 950px !important;
+        width: 100% !important;
+    }
+    .botonesIniciales{
+        display: flex !important;
+    }
+
+    .socialOne{
+        display: block !important;
+        padding: 1rem 3rem 0rem;
+    }
+    .grupoSociales{
+        margin-bottom: 1rem !important;
+    }
+    .cardProgramas{
+        display: block !important;
+        text-align: center !important;
+    }
+    .contenedorValores{
+        display: block !important;
+    }
+    .recuadro{
+        text-align: center;
+    }
+    .economicoPrograma{
+        display: block !important;
+    }
+
+    .testimoniosContenedor{
+        padding: 1rem 1rem;
+    }
+    .videoTestimonios{
+        width: 240px !important;
+        height: 360px !important;
+        
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+
+    .navbar{
+        background-color: var(--primary-color);
+        height: 40px;
+    }
+    .socialOne{
+        display: flex;
+    }
+  }
+  
+  /* For large devices */
+  @media screen and (max-width: 1024px) {
+    .imagenAbout{
+        width: 100% !important;
+    }
+    .footer__content {
+      justify-items: center;
+    }
+    .imagenEstudiantes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forms{
+        width: 600px;
+        height: 900px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .imagenEstudiantes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .forms{
+        width: 600px;
+        height: 900px;
+    }
+
+  }
+  /* For tall screens on mobiles y desktop*/
+  @media screen and (min-height: 721px) {
+    body {
+      margin: 0;
+    }
+    .home__container, .home__img {
+      height: 640px;
+    }
+  }
+  
+  /* Testimonios  ---------------------------------------------------------*/ 
+
+  .testimonioscont{
+    background-color: #ebf0f9;
+    height: 500px;
+   }
+
+  /* Preguntas -------------------------------------------------------------*/
+      
+      /*
+  .preguntascol{
+      background-color: #fff0ca;
+  }   */
+
+  .preguntash3{
+    margin-left: 0rem;
+  }
+/*.forms{
+    width: 600px;
+    height: 900px;
+}*/
+.seccionMisionVision{
+    padding: 2rem 0rem;
+    background-color: #E3F4FC;
+}
+  /* inscip -------------------------------------------------------------------*/
+.contenedorbotones{
+    margin-bottom: 30rem;
+}
+  .seccionImagen{
+    margin-left: 8rem;
+}
+.imageninscrip{
+    max-width: 500px;
+    border-radius: 12px;
+
+}
+
+.botonin{
+    margin-right: 5rem;
+}
+
+
+.incripdos{
+    background-color: cornsilk;
+}
+/* ------------------------------------------------------------------------------*/
+
+
+/*ESTA PARTE ES DE LA SECCIÓN METODOLOGÍA*/
+.secciondePrueba{
+     background-color: lawngreen;
+     padding: 5rem 4rem;
+      
+  }
+.seccionPasos{
+    margin-top: 5rem;
+}
+.tituloHerramientas{
+    margin-bottom: 6rem;
+}
+.cardText{
+    text-align: right;
+}
+.recuadro{
+    padding: .5rem 1rem;
+    color: white;
+}
+.descripcionHerramientas{
+    font-size: 12px !important;
+}
+
+.masMetodologia{
+    padding: 5rem 0rem 2rem;
+}
+
+.descripcionInicialProgramas{
+    padding: 1rem 0rem 1rem 7rem;
+}
+
+
+/*DISEÑO PARA LA IMAGEN DEL NAVBAR  */
+.logoNavBar{
+    height: 50px;
+    width: 40px;
+    cursor: pointer;
+}
+
+/*ESTE ES EL DISEÑO DE LA PARTE DE PRGRAMAS*/
+.imagenTexto>img{
+    width: 100%;
+    height: 300px !important;
+    object-fit: cover;
+}
+.seccionInicialProgramas{
+    margin-bottom: 8rem !important;
+}
+.tab-content .active{
+    background-color: transparent;
+    color: black !important;
+}
+.tituloPrograma{
+    padding: 2rem 1rem;
+    line-height: 200%;
+}
+.tituloEncabezado{
+    font-size: 50px;
+    color: #083f7d!important ;
+}
+.seccionJuniors{
+    background-color: transparent
+    ;
+    padding: 2rem 0rem;
+}
+.color-azul{
+    color: #083f7d !important;
+    font-size: 35px;
+}
+
+/*CÓDIGO PARA ABOUT US*/
+.seccionAcademica{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--color-contenedor);
+}
+.botonFlotante{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.seccionApply>img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+.divisionLogos{
+    text-align: center;
+   /* padding: 5rem 1.85rem 1rem;*/
+   padding: 5rem 3.4rem 1rem;
+}
+.imagenRedesFooter{
+    height: 40px !important;
+    color: white !important;
+}
+.hipervinculosFooter{
+    text-decoration: none;
+    color: white;
+}
+.hipervinculosFooter:hover{
+    color: white;
+}
+
+.contenedorHerramientas{
+    padding: 2rem 1rem;
+    background-color: var(--color-contenedor);
+}
+
+.fondoPrincipal{
+    background-color: var(--color-contenedor);
+    padding: 2rem 1rem;
+}
+
+/*BOTON PROGRAMAS*/
+.soliex{
+    background-color: #2D9B5E;
+    border-color: #217346;
+}
+.cardJuniors{
+    background-image: url("/assets/img/programas/cards/1.png");
+    height: 100%;
+    padding: 1rem 1rem;
+}
+.cardJovenes{
+    background-image: url("/assets/img/programas/cards/2.png");
+    height: 100%;
+    padding: 1rem 1rem;
+}
+.cardPersonalizado{
+    background-image: url("/assets/img/programas/cards/3.png");
+    height: 100%;
+    padding: 1rem 1rem;
+}
+.cardEmpresarial{
+    background-image: url("/assets/img/programas/cards/4.png");
+    height: 100%;
+    padding: 1rem 1rem;
+}
+.cardInternacional{
+    background-image: url("/assets/img/programas/cards/5.png");
+    height: 100%;
+    padding: 1rem 1rem;
+}
+
+/*TESTIMONIOS*/
+.testimoniosContenedor{
+    padding: 1rem 3rem;
+}
+.videoTestimonios{
+    
+    width: 480px;
+    height: 720px;
+}

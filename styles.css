@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/*==== VARIABLES ====*/
+:root{
+    --whatsapp-color: #25d366;
+    --whatsapp-color-second: #dcf8c6;
+    --primary-color: #1E31B5;
+    --header-color: #182124;
+    --smaller-font-size: 0.8rem;
+    --color-grey: #E5E5E5;
+    --footer-color: #0B0706;
+}
+/*.header{
+    background-color: var(--header-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navcontainer{
+    padding: .1rem 1rem !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 0 !important;
+    
+}
+.navbar-nav{
+    font-size: .8rem !important;
+}
+.header{
+    padding: .25rem 0rem !important;
+    
+    min-height: 67px;
+    font-size: var(--smaller-font-size) !important;
+}
+
+.btn-primary-wsp{
+    padding: .5rem 1rem !important;
+    color: black;
+    font-size: var(--smaller-font-size);
+    font-weight: bold;
+    background-color: var(--whatsapp-color);
+    border-color: var(--whatsapp-color);
+}
+.btn-primary-wsp:hover{
+    background: var(--whatsapp-color-second);
+    border-color: var(--whatsapp-color-second);
+    color: #000;
+}
+.nav-link{
+    padding: .5rem 1rem!important;
+    color: black !important;
+    border-radius: 5px;
+    margin: 0rem .25rem;
+}
+.nav__social-icon {
+    font-size: 1.2rem;
+    color: var(--whatsapp-color);
+    margin-top: 0rem;
+    display:flex;
+  }
+.text-dark{
+    font-weight: bold;
+    color: white;
+}
+.active{
+    color: white !important;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    
+}
+.nav-link:hover{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+
+
+/*==== CARRUSEL ====*/
+.carrusel{
+    margin-top: 0 !important;
+    margin-bottom: 8rem !important;
+}
+.textoInicial{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.sloganInicial{
+    font-size: 4rem !important;
+    color: white;
+}
+.logotipoSloganInicial{
+    height:200px;
+    width: 350px;
+}
+.botonInicial{
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-size: 1rem !important;
+    width: 170px;
+    height: 50px;
+}
+.botonSecundario{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: white;
+    color: white;
+}
+.botonSecundario:hover{
+    background-color: var(--whatsapp-color);
+    border-color: var(--whatsapp-color) !important;
+    color:black;
+    border-color: white;
+
+}
+
+
+/*==== SECCIONES ====*/
+.titulosSections{
+    font-size: 3rem;
+}
+.content{
+    max-width: 550px;
+    
+}
+.Social{
+    width: 25px;
+    height: 25px;
+}
+.imageOne{
+    max-width: 400px;
+}
+.redesSociales{
+    display: flex !important;
+}
+
+
+#hero{
+   height: 500px !important;
+   position: relative; 
+}
+.contenedorHero{
+    height: 500px !important;
+}
+.titulosSection{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+#enlacesDeInteres{
+    height: 350px;
+}
+
+.linea{
+    height: 2px;
+    width: 120px;
+    background-color: var(--primary-color);
+}
+
+.sitioInteres{
+    height: 50px;
+}
+
+.imageFooter{
+    height: 50px;
+    width: 50px;
+}
+.card-footer{
+    background-color: var(--footer-color);
+    color: white;
+}
+.titulosFooter{
+    font-size: var(--text-normal) !important;
+}
+.subTitulosFooter{
+    font-size: var(--text-pequeño) !important;
+    font-weight: lighter !important;
+}
+
+/*====Seccion Inicial====*/
+.parteUno{
+    width: 700px;
+}
+.lineayDescripcion{
+    margin-top: 0.3rem;
+    align-items: center;
+    justify-content: left;
+}
+.seccionVacia{
+    height: .5rem;
+    align-items: centers;
+    padding-top: 0.3rem !important;
+
+
+}
+.columnaLinea{
+    max-width: 72px;
+    padding-top: .6rem;
+    text-align: right;
+    padding-left: .6rem;
+}
+.seccionesH3{
+    height: 19px;
+    margin-left: .5rem;
+}
+.tachado{
+    background-color: var(--color-grey);
+    height: 2px;
+    width: 72px;
+    padding: 0;
+}
+.texto{
+    padding:0rem;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 2.3rem;
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+
+
+.lineaOne{
+    top: 0.6rem;
+    line-height: 20px;
+    height: 2px;
+    width: 72px;
+    background-color: black !important;
+}
+.divisionLinea{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: flex;
+    width: 5rem !important;
+    height: 2px;
+    background-color: black !important;
+}
+.linaInicial{
+    padding-top: auto !important;
+    width: 7rem !important;
+    height: 2px !important;
+    background-color: black !important;
+}
+.descripcionInicial{
+    max-width: 605px;
+    margin-left: 0rem;
+    padding-left: 8rem !important;
+}
+.descripcionSecciones{
+    font-size: 1rem !important;
+    margin-bottom: 6rem;
+}
+.divisionesPoco{
+    color: grey;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 3.5rem;
+}
+.tituloEncabezado{
+    font-size: 50px;
+    
+
+}
+.text-justify{
+    text-align: justify !important;
+}
+.seccionImagen{
+    margin-left: 8rem;
+}
+.imagenCostado{
+    max-width: 500px;
+    border-radius: 12px;
+
+}
+/**BOTONES**/
+.botonPrimario{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/**SECCION REDES SOCIALES**/
+.redesSocialesOne{
+    height: 85px;
+    margin-bottom: 8rem !important;
+}
+.seccionesRedes{
+    height: 19px;
+    margin-left: .5rem;
+}
+.columnaLineaRed{
+    width: 75% !important;
+    margin-left: 0rem;
+    padding-top: 0.65rem !important;
+}
+.textoRed{
+    margin:0;
+    width: 25% !important;
+    
+}
+.tachadoRed{
+    background-color: var(--color-grey);
+    height: 2px;
+    max-width: 100%;
+}
+.socialOne{
+    justify-content: center !important;
+}
+.grupoSociales{
+    display: flex;
+    align-items: center !important;
+    margin-bottom: 0rem !important;
+}
+.logosSocial{
+    margin-bottom: 0rem;
+}
+.logosSociales{
+    width: 30px;
+    display: flex;
+    margin-bottom: 0rem !important;
+}
+.border-radius{
+    border-radius: 12px;
+}
+
+
+
+/**INSCRIPCIÓN**/
+.Inscripcion{
+    background-color: #E3F4FC;
+    padding-top: 5rem !important;
+}
+.tituloInscripcion{
+    font-size: 2.5rem !important;
+}
+.logoEnumerar{
+    width: 2rem !important;
+    margin-bottom: 0rem !important;
+    margin-right: 1.9rem;
+}
+.tituloLadoLogo{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0rem !important;
+}
+.descripcionProgramas{
+    margin-left: 4rem !important;
+}
+.bloqueProgramas{
+    margin-left: 3rem;
+}
+
+/*==========TESTIMONIOS==========*/
+.testimoniosPrincipal{
+    margin-bottom: 10rem !important;
+}
+.card{
+    border-radius: 12px !important;
+}
+.botonTestimonio{
+    float: right;
+
+}
+
+
+/*==========TESTIMONIOS==========*/
+.Aprendizaje{
+    background-color: #0B0706;
+    padding: 4rem;
+}
+.imagenHabilidades{
+    margin-bottom: 9rem !important;
+}
+
+/*==== MEDIA ====*/
+/*For small dvices*/
+@media screen and (max-width: 340px){
+    .container{
+        max-width: 340px;
+    }
+    .titulosSections{
+        font-size: 2rem;
+    }
+    .content{
+        max-width: 340px;
+        margin-bottom: 1rem;
+    }
+    .redesSociales{
+        margin-bottom: .25rem;
+        display: inherit !important;
+    }
+    .Social{
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    .my-5{
+        margin-bottom: 0 !important;
+    }
+    .imageOne{
+        width: 250px;
+    }
+    .contenedorHero{
+        height: 740px !important;
+        margin-bottom: 0 !important;
+    }
+    .enlacesInteres{
+        display: inherit !important;
+        margin-bottom: 1rem !important;
+    }
+    #enlacesDeInteres{
+        height: 400px;
+    }
+
+
+
+}
+/*For medium devices*/
+
+
+@media (max-width: 992px) {
+    #hero{
+        height: 700px; 
+     }
+    #enlacesDeInteres{
+        position: relative;
+    }
+    .body{
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .container{
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .titulosSections{
+        font-size: 2rem !important;
+    }
+    .content{
+        margin-bottom: 2rem;
+        max-width: 360px !important;
+    }
+    .sociales{
+        margin-bottom: 1rem;
+    }
+    .contenedorHero{
+        height: 600px !important;
+    }
+    .partOne{
+        height: 400px;
+    }
+    .imageOne{
+        width: 250px;
+    }
+    .enlacesInteres{
+        display: inherit !important;
+    }
+    #enlacesDeInteres{
+        height: 430px;
+    }
+}
+/*For large devices*/
+@media screen and (min-width: 1024px) {
+    #hero{
+        height: 600px !important;
+    }
+}
+
+
+
