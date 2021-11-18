@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/*==== VARIABLES ====*/
+:root{
+    --whatsapp-color: #25d366;
+    --whatsapp-color-second: #dcf8c6;
+    --primary-color: #083f7d;
+    --header-color: #182124;
+    --smaller-font-size: 0.8rem;
+    --color-grey: #E5E5E5;
+    --footer-color: #083f7d;
+    --instagram-color:#dd2a7b;
+    --third-color: #0c5db8;
+}
+/*.header{
+    background-color: var(--header-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.tituloEncabezado{
+    color: var(--primary-color) !important;
+}
+
+.navegacionOne{
+    background-color: var(--primary-color);
+}
+
+
+
+
+.btn-primary-wsp{
+    padding: .5rem 1rem !important;
+    color: black;
+    font-size: var(--smaller-font-size);
+    font-weight: bold;
+    background-color: var(--whatsapp-color);
+    border-color: var(--whatsapp-color);
+}
+.btn-primary-wsp:hover{
+    background: var(--whatsapp-color-second);
+    border-color: var(--whatsapp-color-second);
+    color: #000;
+}
+.nav-link{
+    font-size: .9rem;
+    font-weight:600;
+    padding: .5rem 1rem!important;
+    color: white !important;
+    margin: 0rem .2rem;
+    
+    margin-left: 2.1rem !important;
+    
+}
+.ultimo{
+    margin-right: 0rem !important;
+}
+
+.active{
+    background-color: var(--third-color);  
+}
+.nav-link:hover{
+    background-color: var(--third-color);
+    color: #fff !important;
+    
+}
+.botonWhatsapp{
+    background-color: var(--whatsapp-color);
+    border-radius: 5px;
+    border-color: var(--whatsapp-color);
+    letter-spacing: 3px;
+}
+.botonWhatsapp:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border-color: var(--whatsapp-color);
+    letter-spacing: 3px;
+}
+.seccionWhatsapp{
+    padding: .9rem 0rem 0rem;
+}
+
+
+/*==== CARRUSEL ====*/
+
+
+.botonInicial{
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-size: 1rem !important;
+    width: 170px;
+    height: 50px;
+    padding-top: .8rem;
+}
+.botonInicial:hover{
+    background-color: black;
+    border-color: black;
+    color:white;
+}
+.botonSecundario{
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: white;
+    color: white;
+    width: 170px;
+    height: 50px;
+    padding-top: .8rem !important;
+}
+.botonSecundario:hover{
+    background-color: var(--whatsapp-color);
+    border-color: var(--whatsapp-color) !important;
+    color:black;
+    border-color: white;
+
+}
+
+
+/*==== SECCIONES ====*/
+.titulosSections{
+    font-size: 3rem;
+}
+.content{
+    max-width: 550px;
+    
+}
+.Social{
+    width: 25px;
+    height: 25px;
+}
+.imageOne{
+    max-width: 400px;
+}
+.redesSociales{
+    display: flex !important;
+}
+
+
+#hero{
+  
+   position: relative; 
+}
+
+.titulosSection{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+
+.linea{
+    height: 2px;
+    width: 120px;
+    background-color: var(--primary-color);
+}
+
+.sitioInteres{
+    height: 50px;
+}
+
+.imageFooter{
+    height: 50px;
+    width: 50px;
+}
+.card-footer{
+    background-color: var(--footer-color);
+    color: white;
+}
+.titulosFooter{
+    font-size: var(--text-normal) !important;
+}
+.subTitulosFooter{
+    font-size: var(--text-pequeño) !important;
+    font-weight: lighter !important;
+}
+
+/*====Seccion Inicial====*/
+.parteUno{
+    width: 700px;
+}
+.lineayDescripcion{
+    margin-top: 0.3rem;
+    align-items: center;
+    justify-content: left;
+}
+.seccionVacia{
+    height: .5rem;
+    align-items: centers;
+    padding-top: 0.3rem !important;
+
+
+}
+.columnaLinea{
+    max-width: 72px;
+    padding-top: .6rem;
+    text-align: right;
+    padding-left: .6rem;
+}
+.seccionesH3{
+    height: 19px;
+    margin-left: .5rem;
+}
+.tachado{
+    background-color: var(--color-grey);
+    height: 2px;
+    width: 72px;
+    padding: 0;
+}
+.texto{
+    padding:0rem;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 2.3rem;
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+
+
+.lineaOne{
+    top: 0.6rem;
+    line-height: 20px;
+    height: 2px;
+    width: 72px;
+    background-color: black !important;
+}
+.divisionLinea{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    display: flex;
+    width: 5rem !important;
+    height: 2px;
+    background-color: black !important;
+}
+.linaInicial{
+    padding-top: auto !important;
+    width: 7rem !important;
+    height: 2px !important;
+    background-color: black !important;
+}
+.descripcionInicial{
+
+    margin-left: 0rem;
+    
+}
+.descripcionSecciones{
+    font-size: 1rem !important;
+    
+}
+.divisionesPoco{
+    color: grey;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 3.5rem;
+}
+.tituloEncabezado{
+    font-size: 50px;
+    
+
+}
+.text-justify{
+    text-align: justify !important;
+}
+
+/**BOTONES**/
+.botonPrimario{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/**SECCION REDES SOCIALES**/
+.redesSocialesOne{
+    margin-bottom: 5rem !important;
+}
+.seccionesRedes{
+    height: 19px;
+    margin-left: .5rem;
+}
+.columnaLineaRed{
+    width: 75% !important;
+    margin-left: 0rem;
+    padding-top: 0.65rem !important;
+}
+.textoRed{
+    margin:0;
+    width: 25% !important;
+    
+}
+.tachadoRed{
+    background-color: var(--color-grey);
+    height: 2px;
+    max-width: 100%;
+}
+/*----------- ESTA SECCIÓN ES PARA REDES SOCIALES --------------*/
+.socialOne{
+    justify-content: center !important;
+}
+.grupoSociales{
+    display: flex;
+    text-decoration: none;
+    align-items: center !important;
+    margin-bottom: 0rem !important;
+}
+.whatsapp{
+    color: var(--whatsapp-color);
+}
+.instagram{
+    color: var(--instagram-color);
+}
+.tiktok{
+    color: black;
+}
+.logosSocial{
+    margin-bottom: 0rem;
+}
+.logosSociales{
+    width: 30px;
+    display: flex;
+    margin-bottom: 0rem !important;
+}
+
+
+
+
+.border-radius{
+    border-radius: 12px;
+}
+
+
+
+/**INSCRIPCIÓN**/
+.Inscripcion{
+    background-color: #E3F4FC;
+    padding-top: 5rem !important;
+}
+.tituloInscripcion{
+    font-size: 2.5rem !important;
+}
+.logoEnumerar{
+    width: 2rem !important;
+    margin-bottom: 0rem !important;
+    margin-right: 1.9rem;
+}
+.tituloLadoLogo{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0rem !important;
+}
+.descripcionProgramas{
+    margin-left: 4rem !important;
+}
+.bloqueProgramas{
+    margin-left: 3rem;
+}
+
+/*==========TESTIMONIOS==========*/
+.testimoniosPrincipal{
+    margin-bottom: 10rem !important;
+}
+.card{
+    border-radius: 12px !important;
+}
+.botonTestimonio{
+    float: right;
+
+}
+.text-right{
+    text-align: right;
+}
+
+
+/*==========TESTIMONIOS==========*/
+.Aprendizaje{
+    background-color: #0B0706;
+    padding: 4rem;
+}
+.imagenHabilidades{
+    margin-bottom: 9rem !important;
+}
+
+
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+    .place__container {
+      grid-template-columns: max-content;
+      justify-content: center;
+    }
+    .experience__content {
+      padding: 0;
+    }
+    .experience__overlay:nth-child(1) {
+      width: 190px;
+    }
+    .experience__overlay:nth-child(2) {
+      width: 80px;
+    }
+    .home__info {
+      width: 190px;
+      padding: 1rem;
+    }
+    .experience__img,
+    .video__container {
+      padding: 0;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .navbar{
+        background-color: var(--primary-color); 
+    }
+    .textoInicial{
+        
+        margin-top: 1rem !important;
+        margin-right: 1rem !important;
+        
+    }
+    .sloganInicial{
+        font-size: 4rem !important;
+        color: white;
+    }
+    .logotipoSloganInicial{
+        height:60px;
+        width: 105px;
+    }
+    .botonesIniciales{
+        display: flex !important;
+    }
+
+    .socialOne{
+        display: block !important;
+        padding: 1rem 3rem 0rem;
+    }
+    .grupoSociales{
+        margin-bottom: 1rem !important;
+    }
+    .descripcionInicial{
+        padding-left: 0rem !important;
+    }
+    .enlacesInteres{
+        display: block !important;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar{
+        background-color: var(--primary-color);
+        height: 40px;
+    }
+    
+    .socialOne{
+        display: flex;
+    }
+    .textoInicial{
+        margin-top: 50rem !important;
+    }
+  }
+  
+  /* For large devices */
+  @media screen and (max-width: 1024px) {
+    .imagenAbout{
+        width: 100% !important;
+    }
+    .footer__content {
+      justify-items: center;
+    }
+    .imagenEstudiantes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textoInicial{
+        margin-top: 0rem;
+        margin-left: 0.5rem;
+        
+    }
+    .sloganInicial{
+        font-size: 4rem !important;
+        color: white;
+    }
+    .logotipoSloganInicial{
+        height:120px;
+        width: 210px;
+    }
+    .botonesIniciales{
+        display: flex !important;
+    }
+  }
+
+  @media screen and (min-width: 1336px) {
+    .imagenEstudiantes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        background-color: var(--primary-color);
+        height: 40px;
+        margin-right: 0rem !important;
+    }
+  }
+
+  .divisionLogos{
+    text-align: center;
+    padding: 5rem 3.4rem 1rem;
+}
+.imagenRedesFooter{
+    height: 40px !important;
+    color: white !important;
+}
+.hipervinculosFooter{
+    text-decoration: none;
+    color: white;
+}
+.hipervinculosFooter:hover{
+    color: white;
+}
